@@ -3,10 +3,15 @@
   padding:0;
 }
 
+body{
+  background-color: rgb(244, 230, 173);
+}
+
 header{
   border-bottom: 1px solid #1b85dc;
   height: 10vh;
   display:flex;
+  background-color: aliceblue;
 }
 
 #logo{
@@ -16,6 +21,8 @@ header{
 
 #logo img{
   height: 8vh;
+  margin-left: 4vh;
+  margin-top: 1vh;
 }
 #display{
   width: 50vw;
@@ -40,12 +47,18 @@ main{
   text-decoration: none;
 }
 
+.card{
+  border-color: #1b85dc;
+  border-radius: 2vh;
+}
+
 #modal-view{
   border:1px solid #1b85dc;
   position: absolute;
   display:none;
   width: 90vw;
   padding:10px;
+  background-color: rgb(255, 255, 255);
  
 }
 
@@ -55,6 +68,7 @@ main{
 
 #modal{
   border:1px solid #1b85dc;
+  background-color: rgb(255, 255, 255);
   position: absolute;
   padding:2vh 2vw;
   display:none;
@@ -65,3 +79,5 @@ main{
   display:flex;
   gap:10px;
 }
+
+
